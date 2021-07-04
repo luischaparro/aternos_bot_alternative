@@ -9,7 +9,7 @@ http.createServer((req, res)=>{
 const client = bedrock.createClient({
   host: 'ab01.aternos.me',  
   port: 60526,        
-  username: 'Bob',
+  username: 'Sam',
   offline: true
 });
 
