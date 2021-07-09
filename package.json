@@ -1,23 +1,22 @@
 {
   "name": "aternosbotalternative",
   "version": "1.0.0",
-  "description": "Afk bot for aternos",
+  "description": "Bot afk for aternos",
   "main": "main.js",
   "dependencies": {
-    "bedrock-protocol": "^3.4.0"
+    "bedrock-protocol": "^3.4.0",
+    "node-http-ping": "^0.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js"
   },
   "keywords": [
-    "afkbot",
-    "bot",
     "aternos",
-    "minecraft",
-    "bebdrock"
+    "bot",
+    "afk",
+    "minecraft"
   ],
-  "author": "Nf02",
+  "author": "nf",
   "license": "ISC"
 }
