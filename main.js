@@ -17,7 +17,7 @@ function trafico(){
   .catch(() => console.log('Failed to ping'))
 };
 
-setInterval(trafico, 3000);
+setInterval(trafico, 20*60*1000);
 
 /*Crear jugador y hacer que entre*/
 const client = bedrock.createClient({
